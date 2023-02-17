@@ -7,7 +7,7 @@ int main(void)
 {
 	int m = 97;
 
-	while ( m <= 122)
+	while (m <= 122)
 	{
 		if (m != 'q' && m != 'e')
 			putchar(m);
