@@ -5,9 +5,12 @@
  */
 int main(void)
 {
-	for (int i = 97; i <= 122; i++)
+	int m = 97;
+
+	while (m <= 122)
 	{
-		putchar(i);
+		putchar(m);
+		m++;
 	}
 	putchar('\n');
 	return (0);
