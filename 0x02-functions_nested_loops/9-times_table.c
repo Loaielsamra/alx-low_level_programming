@@ -13,7 +13,7 @@ void times_table(void)
       {
       if (j <= 9 - 1)
       {
-      _putchar(r)
+      _putchar(r);
       _putchar(' ');
       }
       else
