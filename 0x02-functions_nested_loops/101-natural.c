@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints 
+ * main - prints
  * Return: 0 (success)
  */
 
@@ -16,6 +16,6 @@ int main(void)
 		i++;
 	}
 
-	printf("%d \n", sum);
+	printf("%d\n", sum);
 	return (0);
 }
