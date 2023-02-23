@@ -7,14 +7,18 @@
 
 void print_square(int size)
 {
-	char h ='#';
+	char h = '#';
+	int row = 1;
+	int col = 1;
 
-	for (int row = 1; row <= size; ++row)
+	while (row <= size)
 	{
-		for (int col = 1; col <= size; ++col)
+		while (col <= size)
 		{
 			_putchar(h);
+			++col;
 		}
 		_putchar('\n');
+		row++;
 	}
 }
