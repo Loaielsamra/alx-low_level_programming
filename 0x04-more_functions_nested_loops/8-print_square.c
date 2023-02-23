@@ -13,6 +13,7 @@ void print_square(int size)
 
 	while (row <= size)
 	{
+		col = 1;
 		while (col <= size)
 		{
 			_putchar(h);
