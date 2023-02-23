@@ -7,19 +7,22 @@
 
 void print_square(int size)
 {
-	char h = '#';
-	int row = 1;
-	int col = 1;
+	int r, c;
 
-	while (row <= size)
+	c = 0;
+
+	if (size < 1)
+		_putchar('\n');
+
+	while (c < size)
 	{
-		col = 1;
-		while (col <= size)
+		r = 0;
+		while (r < size)
 		{
-			_putchar(h);
-			++col;
+			_putchar('#');
+			r++;
 		}
 		_putchar('\n');
-		row++;
+		c++;
 	}
 }
