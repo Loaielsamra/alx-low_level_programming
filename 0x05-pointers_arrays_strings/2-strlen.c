@@ -1,4 +1,4 @@
-#include "main."
+#include "main.h"
 /**
  * _strlen - counts number of characters in string
  * @c: char type pointer
