@@ -6,7 +6,7 @@
 
 void print_number(int n)
 {
-	int poer;
+	int power;
 	int neg;
 	int hold;
 
@@ -20,7 +20,7 @@ void print_number(int n)
 		neg = 1;
 	}
 
-	while (holdd > 9 || hold > -9)
+	while (hold > 9 || hold > -9)
 	{
 		power *= 10;
 		hold /= 10;
