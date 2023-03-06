@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib.h>
 /**
  * _strstr - finds 1st occurence of 'needle' in 'haystack'
  * @haystack: string searched
