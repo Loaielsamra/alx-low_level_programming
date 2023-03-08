@@ -22,7 +22,7 @@ int help(int c, int i)
 {
 	int square;
 
-	square = i * 1;
+	square = i * i;
 
 	if (square == c)
 		return (i);

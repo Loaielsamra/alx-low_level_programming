@@ -49,5 +49,5 @@ int hen(int n, int d)
 	else if (_sqrt(n, 1) < d)
 		return (1);
 	else
-		return (hen(n, ++d)):
+		return (hen(n, ++d));
 }
