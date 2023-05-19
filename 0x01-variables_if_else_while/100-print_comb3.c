@@ -11,7 +11,7 @@ int main(void)
 
 	for (n = '0'; n <= '9'; n++)
 	{
-		for (n2 = '0'; n2 <= '9'; n++)
+		for (n2 = '0'; n2 <= '9'; n2++)
 		{
 			if (n < n2)
 			{
