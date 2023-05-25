@@ -2,6 +2,7 @@
 
 /**
  * main - does the fizzbuzz test
+ * Rteurn: always 0
  */
 
 int main(void)
