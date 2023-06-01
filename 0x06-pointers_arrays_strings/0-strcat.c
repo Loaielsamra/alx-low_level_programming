@@ -3,7 +3,7 @@
 /**
  * _strcat - conactenates 2 strings
  * @dest: destination string
- * @src sorce string
+ * @src: source string
  * Return: dest
  */
 
