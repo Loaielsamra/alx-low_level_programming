@@ -2,7 +2,7 @@
 
 /**
  * free_grid - free 2dim grid
- * @grid - grid to free
+ * @grid: grid to free
  * @height: height of grid
  */
 
