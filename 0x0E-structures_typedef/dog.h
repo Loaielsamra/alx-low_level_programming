@@ -4,14 +4,14 @@
 /**
  * struct dog - doggie
  * @name: doggie name char string
- * @age: dog age integer
+ * @age: dog age float
  * @owner: owner name char string
  */
 
 typedef struct dog
 {
 	char *name;
-	int age;
+	float age;
 	char *owner;
 } dog_t;
 
