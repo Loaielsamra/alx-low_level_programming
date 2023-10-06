@@ -33,7 +33,8 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	return (1);
 }
 
-int key_exists(hash_table_t *ht, const char *key, const char *value, unsigned long int index)
+int key_exists(hash_table_t *ht, const char *key, const char *value,
+		unsigned long int index)
 {
 	hash_node_t *tmp;
 
