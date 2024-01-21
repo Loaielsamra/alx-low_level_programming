@@ -5,7 +5,7 @@ void printarray(int *array, int start, int end);
  * binary_search - searches array using binary search
  * @array: array to search
  * @size: size of array
- * value: target value
+ * @value: target value
  * Return: index of `value` or -1 if not found
  */
 
@@ -17,7 +17,7 @@ int binary_search(int *array, size_t size, int value)
 		return (-1);
 	low = 0;
 	high = size - 1;
-	
+
 	if (low > high)
 		return (-1);
 
@@ -32,7 +32,7 @@ int binary_search(int *array, size_t size, int value)
 		else if (array[middle] > value)
 			high = middle - 1;
 		else
-			return middle;
+			return (middle);
 	}
 
 	return (-1);
@@ -40,6 +40,7 @@ int binary_search(int *array, size_t size, int value)
 
 /**
  * printarray - prints array
+ * @array: array to print
  * @low: starting index
  * @high: ending index
  */
